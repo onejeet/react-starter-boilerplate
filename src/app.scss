@@ -1,9 +1,23 @@
 .app {
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
     font-size: 20px;
-    .name {
-        font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    .welcome {
+        text-align: center;
+        font-size: 2em;
+    }
+    .footer {
+        margin-top: 50px;
+        text-align: center;
+        a {
+            color: red;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 }
